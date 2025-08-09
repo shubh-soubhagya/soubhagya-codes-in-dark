@@ -3,7 +3,7 @@ import { Badge } from '@/components/ui/badge';
 
 const experiences = [
   {
-    title: "AI/ML Developer Intern",
+    title: "AI/ML Developer",
     company: "GarudaX",
     location: "Patna, Bihar",
     period: "Oct 2024 - Present",
@@ -44,8 +44,8 @@ const experiences = [
     description: "Spearheading AI/ML model development and leading cross-functional data science initiatives.",
     keyMetrics: [
       { label: "Models Deployed", value: "50+", icon: Code },
-      { label: "Team Members", value: "5", icon: Users },
-      { label: "API Integrations", value: "3", icon: Zap }
+      { label: "Team Members", value: "25+", icon: Users },
+      { label: "API Integrations", value: "10+", icon: Zap }
     ],
     technologies: ["NLP", "LLMs", "Cohere API", "Stable Diffusion", "Hugging Face", "ML Pipelines"],
     achievements: [

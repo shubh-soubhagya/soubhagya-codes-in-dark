@@ -38,7 +38,7 @@ export const Hero = () => {
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl">
               Passionate about building intelligent systems and solving complex problems with 
               machine learning, deep learning, and cutting-edge AI technologies. Currently working 
-              on cybersecurity solutions and advanced AI models.
+              on Agentic AI solutions and MLOps.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 items-center justify-center lg:justify-start mb-8">
@@ -66,7 +66,7 @@ export const Hero = () => {
 
             <div className="flex items-center justify-center lg:justify-start gap-6">
               <a
-                href="https://linkedin.com/in/soubhagya-srivastava"
+                href="https://www.linkedin.com/in/soubhagya-srivastava-611408267/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors p-2"
@@ -74,7 +74,7 @@ export const Hero = () => {
                 <Linkedin className="h-6 w-6" />
               </a>
               <a
-                href="https://github.com/soubhagya"
+                href="https://github.com/shubh-soubhagya"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors p-2"

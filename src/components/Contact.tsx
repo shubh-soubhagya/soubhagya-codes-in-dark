@@ -25,13 +25,13 @@ export const Contact = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Connect with me",
-      href: "https://linkedin.com/in/soubhagya-srivastava"
+      href: "https://www.linkedin.com/in/soubhagya-srivastava-611408267"
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "View my code",
-      href: "https://github.com/soubhagya"
+      value: "View my creations",
+      href: "https://github.com/shubh-soubhagya"
     }
   ];
 
@@ -112,7 +112,7 @@ export const Contact = () => {
                   className="w-full border-primary/40 text-primary hover:bg-primary/10 justify-start"
                   asChild
                 >
-                  <a href="https://linkedin.com/in/soubhagya-srivastava" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/soubhagya-srivastava-611408267/" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="h-5 w-5 mr-3" />
                     Connect on LinkedIn
                   </a>
@@ -124,7 +124,7 @@ export const Contact = () => {
                   className="w-full border-primary/40 text-primary hover:bg-primary/10 justify-start"
                   asChild
                 >
-                  <a href="https://github.com/soubhagya" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/shubh-soubhagya" target="_blank" rel="noopener noreferrer">
                     <Github className="h-5 w-5 mr-3" />
                     View GitHub Profile
                   </a>

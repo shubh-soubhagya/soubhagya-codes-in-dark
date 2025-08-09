@@ -20,12 +20,12 @@ const projects = [
     category: 'ai-agents',
     technologies: ["Gemma-2", "Ollama", "Zero-Shot Learning", "Few-Shot Learning", "Multi-Agent Systems", "Python"],
     features: ["Automated CV Parsing", "Role Matching", "Candidate Scoring", "Multi-Agent Architecture"],
-    status: "Production",
+    status: "Beta",
     complexity: "Advanced",
     githubUrl: "#",
     liveUrl: "#",
     featured: true,
-    stats: { accuracy: "95%", agents: "3", models: "Gemma-2" }
+    stats: { accuracy: "95%", agents: "4", models: "Gemma-2" }
   },
   {
     title: "SHODH-AI: Unified AI Platform",
@@ -35,7 +35,7 @@ const projects = [
     category: 'nlp',
     technologies: ["HuggingFace", "Ollama", "PaddleOCR", "LangChain", "Transformers", "FAISS"],
     features: ["Multi-format Support", "Real-time QnA", "Content Analysis", "OCR Integration"],
-    status: "Production",
+    status: "Production Ready",
     complexity: "Advanced",
     githubUrl: "#",
     liveUrl: "#",
@@ -64,7 +64,7 @@ const projects = [
     category: 'chatbots',
     technologies: ["LLAMA3-70B", "Groq API", "Flask", "YouTube API", "NLP", "Transcript Processing"],
     features: ["Auto Transcript", "Context-Aware Chat", "History Navigation", "Download Support"],
-    status: "Production",
+    status: "Production Ready",
     complexity: "Intermediate",
     githubUrl: "#",
     liveUrl: "#",
@@ -78,7 +78,7 @@ const projects = [
     category: 'chatbots',
     technologies: ["Ollama", "FAISS", "LangChain", "Vector Database", "PDF Processing", "RAG"],
     features: ["PDF Upload", "Real-time Chat", "Context Awareness", "Vector Search"],
-    status: "Production",
+    status: "Production Ready",
     complexity: "Intermediate",
     githubUrl: "#",
     stats: { database: "FAISS", framework: "LangChain", response: "Real-time" }
@@ -91,7 +91,7 @@ const projects = [
     category: 'cv',
     technologies: ["GOT-OCR2_0", "PaddleOCR", "Transformers", "LLaMA-3.3", "Computer Vision"],
     features: ["Dual Implementation", "Multi-format Export", "High Accuracy", "Optimized Performance"],
-    status: "Production",
+    status: "Production Ready",
     complexity: "Intermediate",
     githubUrl: "#",
     stats: { versions: "2", formats: "3+", accuracy: "95%+" }
@@ -130,7 +130,7 @@ export const Projects = () => {
 
   const getStatusColor = (status: string) => {
     switch (status) {
-      case 'Production': return 'bg-green-500/20 text-green-400 border-green-500/40';
+      case 'Production Ready': return 'bg-green-500/20 text-green-400 border-green-500/40';
       case 'Beta': return 'bg-blue-500/20 text-blue-400 border-blue-500/40';
       case 'Completed': return 'bg-purple-500/20 text-purple-400 border-purple-500/40';
       default: return 'bg-primary/20 text-primary border-primary/40';
@@ -313,10 +313,10 @@ export const Projects = () => {
             <h3 className="text-2xl font-bold text-gradient mb-6">Project Portfolio Summary</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
-                { label: "Total Projects", value: projects.length.toString(), icon: Code },
-                { label: "AI/ML Models", value: "15+", icon: Brain },
-                { label: "Technologies", value: "25+", icon: Zap },
-                { label: "Production Ready", value: projects.filter(p => p.status === 'Production').length.toString(), icon: Star }
+                { label: "Total Projects", value: "20+", icon: Code },
+                { label: "AI/ML Models", value: "30+", icon: Brain },
+                { label: "Technologies", value: "50+", icon: Zap },
+                { label: "Production Ready", value: projects.filter(p => p.status === 'Production Ready').length.toString(), icon: Star }
               ].map((stat, index) => (
                 <div key={index} className="text-center group">
                   <div className="p-4 bg-primary/10 rounded-lg w-fit mx-auto mb-3 group-hover:bg-primary/20 transition-colors">
@@ -336,7 +336,7 @@ export const Projects = () => {
                   if (element) element.scrollIntoView({ behavior: 'smooth' });
                 }}
               >
-                Discuss Your Project
+                View More of My Projects
                 <Zap className="ml-2 h-5 w-5" />
               </Button>
             </div>

@@ -17,7 +17,7 @@ export const Footer = () => {
 
           <div className="flex items-center gap-6">
             <a
-              href="https://linkedin.com/in/soubhagya-srivastava"
+              href="https://www.linkedin.com/in/soubhagya-srivastava-611408267/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors p-2"
@@ -25,7 +25,7 @@ export const Footer = () => {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="https://github.com/soubhagya"
+              href="https://github.com/shubh-soubhagya"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors p-2"

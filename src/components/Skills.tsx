@@ -84,7 +84,7 @@ export const Skills = () => {
         </div>
 
         {/* Featured Skills Highlight */}
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <div className="portfolio-card p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-gradient mb-6">Core Expertise</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -101,7 +101,7 @@ export const Skills = () => {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
