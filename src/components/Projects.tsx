@@ -4,7 +4,7 @@ import { Badge } from '@/components/ui/badge';
 import { ExternalLink, Github, Brain, FileText, Search, Video, Scan, Eye, Filter, Star, Code, Zap, Database } from 'lucide-react';
 
 const projectCategories = [
-  { id: 'all', label: 'All Projects', icon: Code },
+  // { id: 'all', label: 'All Projects', icon: Code },
   { id: 'ai-agents', label: 'AI Agents', icon: Brain },
   { id: 'nlp', label: 'NLP & LLMs', icon: Search },
   { id: 'cv', label: 'Computer Vision', icon: Eye },
