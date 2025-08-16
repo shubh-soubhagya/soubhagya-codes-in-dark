@@ -112,12 +112,12 @@ const projects = [
 ];
 
 export const Projects = () => {
-  const [selectedCategory, setSelectedCategory] = useState('all');
-  const [hoveredProject, setHoveredProject] = useState<number | null>(null);
+  // const [selectedCategory, setSelectedCategory] = useState('all');
+  // const [hoveredProject, setHoveredProject] = useState<number | null>(null);
 
-  const filteredProjects = selectedCategory === 'all' 
-    ? projects 
-    : projects.filter(project => project.category === selectedCategory);
+  // const filteredProjects = selectedCategory === 'all' 
+  //   ? projects 
+  //   : projects.filter(project => project.category === selectedCategory);
 
   const getComplexityColor = (complexity: string) => {
     switch (complexity) {
