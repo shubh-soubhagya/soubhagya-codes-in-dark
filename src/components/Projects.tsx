@@ -22,8 +22,8 @@ const projects = [
     features: ["Automated CV Parsing", "Role Matching", "Candidate Scoring", "Multi-Agent Architecture"],
     status: "Beta",
     complexity: "Advanced",
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/shubh-soubhagya/MAS-HIRE",
+    liveUrl: "https://github.com/shubh-soubhagya/MAS-HIRE",
     featured: true,
     stats: { accuracy: "95%", agents: "4", models: "Gemma-2" }
   },
@@ -37,8 +37,8 @@ const projects = [
     features: ["Multi-format Support", "Real-time QnA", "Content Analysis", "OCR Integration"],
     status: "Production Ready",
     complexity: "Advanced",
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/shubh-soubhagya/ShodhAI-2.0",
+    liveUrl: "https://github.com/shubh-soubhagya/ShodhAI-2.0",
     featured: true,
     stats: { formats: "10+", accuracy: "92%", models: "5+" }
   },
@@ -52,8 +52,8 @@ const projects = [
     features: ["Plagiarism Detection", "Domain Classification", "RAG QnA", "Similarity Analysis"],
     status: "Beta",
     complexity: "Advanced",
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/shubh-soubhagya/AI-Powered-Document-Analysis-System",
+    liveUrl: "https://github.com/shubh-soubhagya/AI-Powered-Document-Analysis-System",
     stats: { accuracy: "89%", domains: "3", techniques: "4+" }
   },
   {
@@ -66,8 +66,8 @@ const projects = [
     features: ["Auto Transcript", "Context-Aware Chat", "History Navigation", "Download Support"],
     status: "Production Ready",
     complexity: "Intermediate",
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/shubh-soubhagya/YouTube-transcript-chatbot",
+    liveUrl: "https://github.com/shubh-soubhagya/YouTube-transcript-chatbot",
     stats: { model: "70B", api: "Groq", features: "4+" }
   },
   {
@@ -80,7 +80,7 @@ const projects = [
     features: ["PDF Upload", "Real-time Chat", "Context Awareness", "Vector Search"],
     status: "Production Ready",
     complexity: "Intermediate",
-    githubUrl: "#",
+    githubUrl: "https://github.com/shubh-soubhagya/Doccupy",
     stats: { database: "FAISS", framework: "LangChain", response: "Real-time" }
   },
   {
@@ -93,8 +93,8 @@ const projects = [
     features: ["Dual Implementation", "Multi-format Export", "High Accuracy", "Optimized Performance"],
     status: "Production Ready",
     complexity: "Intermediate",
-    githubUrl: "#",
-    stats: { versions: "2", formats: "3+", accuracy: "95%+" }
+    githubUrl: "https://github.com/shubh-soubhagya/textify-cpu",
+    stats: { versions: "2", formats: "5+", accuracy: "95%+" }
   },
   {
     title: "AI Face Detection System",
@@ -106,7 +106,7 @@ const projects = [
     features: ["Real-time Detection", "Multi-face Support", "Webcam Integration", "Bounding Boxes"],
     status: "Completed",
     complexity: "Beginner",
-    githubUrl: "#",
+    githubUrl: "https://github.com/shubh-soubhagya/AI-Face-Detection",
     stats: { realtime: "Yes", faces: "Multiple", accuracy: "High" }
   }
 ];
