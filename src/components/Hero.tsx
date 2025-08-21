@@ -57,7 +57,7 @@ export const Hero = () => {
                 className="border-primary/40 text-primary hover:bg-primary/10 px-8 py-3 text-lg"
                 asChild
               >
-                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="SoubhagyaResume1507.pdf" target="_blank" rel="noopener noreferrer">
                   Download Resume
                   <Download className="ml-2 h-5 w-5" />
                 </a>
